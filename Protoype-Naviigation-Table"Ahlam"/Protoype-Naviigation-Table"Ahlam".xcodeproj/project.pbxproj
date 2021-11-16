@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F441A7B27424D0F005B6DF0 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F441A7A27424D0F005B6DF0 /* DetailVC.swift */; };
+		5F441A8127425328005B6DF0 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F441A8027425328005B6DF0 /* Item.swift */; };
+		5FA870532741190F00288EDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA870522741190F00288EDE /* AppDelegate.swift */; };
+		5FA870552741190F00288EDE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA870542741190F00288EDE /* SceneDelegate.swift */; };
+		5FA870572741190F00288EDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA870562741190F00288EDE /* ViewController.swift */; };
+		5FA8705A2741190F00288EDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FA870582741190F00288EDE /* Main.storyboard */; };
+		5FA8705C2741191000288EDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FA8705B2741191000288EDE /* Assets.xcassets */; };
+		5FA8705F2741191000288EDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FA8705D2741191000288EDE /* LaunchScreen.storyboard */; };
+		5FA87068274119E100288EDE /* TableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA87067274119E100288EDE /* TableVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5F441A7A27424D0F005B6DF0 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		5F441A8027425328005B6DF0 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		5FA8704F2741190F00288EDE /* Protoype-Naviigation-Table"Ahlam".app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Protoype-Naviigation-Table\"Ahlam\".app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FA870522741190F00288EDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5FA870542741190F00288EDE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5FA870562741190F00288EDE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5FA870592741190F00288EDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5FA8705B2741191000288EDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5FA8705E2741191000288EDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5FA870602741191000288EDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FA87067274119E100288EDE /* TableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FA8704C2741190F00288EDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F441A7C27424D68005B6DF0 /* Contrrollers */ = {
+			isa = PBXGroup;
+			children = (
+				5FA870562741190F00288EDE /* ViewController.swift */,
+				5FA87067274119E100288EDE /* TableVC.swift */,
+				5F441A7A27424D0F005B6DF0 /* DetailVC.swift */,
+			);
+			path = Contrrollers;
+			sourceTree = "<group>";
+		};
+		5F441A7D27424DAD005B6DF0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5F441A8027425328005B6DF0 /* Item.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5F441A7E27424DE4005B6DF0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5FA870582741190F00288EDE /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5F441A7F27424E0C005B6DF0 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				5FA8705B2741191000288EDE /* Assets.xcassets */,
+				5FA870522741190F00288EDE /* AppDelegate.swift */,
+				5FA870542741190F00288EDE /* SceneDelegate.swift */,
+				5FA8705D2741191000288EDE /* LaunchScreen.storyboard */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		5FA870462741190F00288EDE = {
+			isa = PBXGroup;
+			children = (
+				5FA870512741190F00288EDE /* Protoype-Naviigation-Table"Ahlam" */,
+				5FA870502741190F00288EDE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5FA870502741190F00288EDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FA8704F2741190F00288EDE /* Protoype-Naviigation-Table"Ahlam".app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FA870512741190F00288EDE /* Protoype-Naviigation-Table"Ahlam" */ = {
+			isa = PBXGroup;
+			children = (
+				5F441A7D27424DAD005B6DF0 /* Models */,
+				5F441A7E27424DE4005B6DF0 /* Views */,
+				5F441A7C27424D68005B6DF0 /* Contrrollers */,
+				5F441A7F27424E0C005B6DF0 /* Support */,
+				5FA870602741191000288EDE /* Info.plist */,
+			);
+			path = "Protoype-Naviigation-Table\"Ahlam\"";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FA8704E2741190F00288EDE /* Protoype-Naviigation-Table"Ahlam" */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FA870632741191000288EDE /* Build configuration list for PBXNativeTarget "Protoype-Naviigation-Table"Ahlam"" */;
+			buildPhases = (
+				5FA8704B2741190F00288EDE /* Sources */,
+				5FA8704C2741190F00288EDE /* Frameworks */,
+				5FA8704D2741190F00288EDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Protoype-Naviigation-Table\"Ahlam\"";
+			productName = "Protoype-Naviigation-Table\"Ahlam\"";
+			productReference = 5FA8704F2741190F00288EDE /* Protoype-Naviigation-Table"Ahlam".app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FA870472741190F00288EDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					5FA8704E2741190F00288EDE = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 5FA8704A2741190F00288EDE /* Build configuration list for PBXProject "Protoype-Naviigation-Table"Ahlam"" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5FA870462741190F00288EDE;
+			productRefGroup = 5FA870502741190F00288EDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FA8704E2741190F00288EDE /* Protoype-Naviigation-Table"Ahlam" */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FA8704D2741190F00288EDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FA8705F2741191000288EDE /* LaunchScreen.storyboard in Resources */,
+				5FA8705C2741191000288EDE /* Assets.xcassets in Resources */,
+				5FA8705A2741190F00288EDE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FA8704B2741190F00288EDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F441A7B27424D0F005B6DF0 /* DetailVC.swift in Sources */,
+				5FA870572741190F00288EDE /* ViewController.swift in Sources */,
+				5FA87068274119E100288EDE /* TableVC.swift in Sources */,
+				5FA870532741190F00288EDE /* AppDelegate.swift in Sources */,
+				5F441A8127425328005B6DF0 /* Item.swift in Sources */,
+				5FA870552741190F00288EDE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5FA870582741190F00288EDE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FA870592741190F00288EDE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5FA8705D2741191000288EDE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FA8705E2741191000288EDE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5FA870612741191000288EDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5FA870622741191000288EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FA870642741191000288EDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8Z2R72TQD4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Protoype-Naviigation-Table\"Ahlam\"/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Protoype-Naviigation-Table-Ahlam-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5FA870652741191000288EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8Z2R72TQD4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Protoype-Naviigation-Table\"Ahlam\"/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Protoype-Naviigation-Table-Ahlam-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FA8704A2741190F00288EDE /* Build configuration list for PBXProject "Protoype-Naviigation-Table"Ahlam"" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FA870612741191000288EDE /* Debug */,
+				5FA870622741191000288EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FA870632741191000288EDE /* Build configuration list for PBXNativeTarget "Protoype-Naviigation-Table"Ahlam"" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FA870642741191000288EDE /* Debug */,
+				5FA870652741191000288EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5FA870472741190F00288EDE /* Project object */;
+}
