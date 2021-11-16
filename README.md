@@ -6,8 +6,8 @@ Prototype App that shows how a user can navigate from a table view controller to
    - `MARK:` 
    - _**Line separators**_
    - Use of _**todo**_ and _**fixme**_ comments
-    - `TODO:`
-    - `FIXME:`
+     - `TODO:`
+     - `FIXME:`
 2. Create a _**table view controller**_ in the Storyboard
 3. Insert data into _**table views**_
    - Numbers of rows in section
