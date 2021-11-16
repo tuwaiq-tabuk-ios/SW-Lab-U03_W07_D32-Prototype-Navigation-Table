@@ -30,5 +30,9 @@ Prototype App that shows how a user can navigate from a table view controller to
 3. When the user taps any _**cell** there is a navigation to a _**detail view controller**_ showing the description of the corresponding `Item` type.
 
 
+
+https://user-images.githubusercontent.com/91871792/141926691-cdf0115c-eb56-4737-903c-c0f113ce541e.mp4
+
+
 ## Deadline 
 Tuesday 16 November 9:15 am
